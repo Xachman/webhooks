@@ -3,8 +3,6 @@ var app = express();
 
 app.get('/', function (req, res) {
   res.send('Hello World!');
-  console.log(req);
-  console.log(res);
 });
 
 app.listen(3248, function () {
