@@ -7,6 +7,6 @@ app.get('/', function (req, res) {
   console.log(res);
 });
 
-app.listen(3247, function () {
-  console.log('Example app listening on port 3247!');
+app.listen(3248, function () {
+  console.log('Example app listening on port 3248!');
 });
